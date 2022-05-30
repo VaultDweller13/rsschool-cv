@@ -1,19 +1,17 @@
 # Artyom Bagaev
 
 ## Contacts
-___
+
 * Location: Astrakhan, Russia
 * Phone: +79XXXXXXXXX
 * GitHub: [VaultDweller13](https://github.com/VaultDweller13)
 * Discord: Corwin13(@VaultDweller13)
 
 ## About me
-___
 
 Currently working as instrumentation and control engineer, my true passion is information technology and computer science. My goal is to become highly professional programmer equipped with diverse, relevant stack of technologies.
 
 ## My skills
-___
 
 * HTML5 & CSS3
 * JavaScript Basics
@@ -24,7 +22,6 @@ ___
 
 
 ## Code examples 
-___
 
 ```
 function lovefunc(flower1, flower2){
@@ -33,19 +30,18 @@ function lovefunc(flower1, flower2){
 ```
 
 ## Work experience
-___
+
 * [Sign-up form](https://github.com/VaultDweller13/sign-up-form)  
 * [Etch-a-sketch](https://github.com/VaultDweller13/etch-a-sketch)
 
 
 ## Education
-___
 
 * Astrakhan State Technical University
 * CS50 lectures
 * The Odin Project (in progress)
 
 ## Languages
-___
+
 * Russian - Native
 * English - Intermediate (B1)
