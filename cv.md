@@ -5,6 +5,7 @@ ___
 * Location: Astrakhan, Russia
 * Phone: +79XXXXXXXXX
 * GitHub: [VaultDweller13](https://github.com/VaultDweller13)
+* Discord: Corwin13(@VaultDweller13)
 
 ## About me
 ___
@@ -18,15 +19,31 @@ ___
 * JavaScript Basics
 * Python basics
 * Git
+* Visual Studio Code
+* Chrome Dev Tools, Firefox Dev Tools
 
 
 ## Code examples 
 ___
 
+```
+function lovefunc(flower1, flower2){
+  return (flower1 % 2 == 0) != (flower2 % 2 == 0);
+}
+```
 
 ## Work experience
 ___
+* [Sign-up form](https://github.com/VaultDweller13/sign-up-form)  
+* [Etch-a-sketch](https://github.com/VaultDweller13/etch-a-sketch)
 
+
+## Education
+___
+
+* Astrakhan State Technical University
+* CS50 lectures
+* The Odin Project (in progress)
 
 ## Languages
 ___
