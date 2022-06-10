@@ -29,11 +29,10 @@ body {
 
   font-family: 'Roboto';
   font-size: 20px;
-  color: #e4e7ec;
+  color: #000000;
   
-  background-color: #041c2c;
+  background-color: #ffffff;
   /* border: 1px solid yellow; */
-  
 }
 
 .header {
@@ -54,17 +53,41 @@ body {
 
 .nav-list {
   display: flex;
-  padding: 5px;
-  gap: 5px;
+  justify-content: flex-end;
+
+  /* padding: 10px; */
+  /* gap: 15px; */
+
   list-style: none;
 }
 
-.nav-item {
-  /* border: 1px solid red; */
+.nav-link{
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.nav-link:visited {
+  color: #000000;
+}
+
+.nav-item:hover {
+  background-color: #f3f4f5;
 }
 
 .section {
   /* border: 1px dotted fuchsia; */
+  padding: 20px;
+  background-color: #f3f4f5;
+}
+
+.section-title,
+.section-content  {
+  padding: 10px;
+}
+
+#contacts .section-list {
+  list-style: none;
 }
 
 .footer {
@@ -74,4 +97,7 @@ body {
 .footer .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+
+  padding: 20px 5px;
 }
