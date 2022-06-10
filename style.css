@@ -16,6 +16,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   justify-content: space-between;
@@ -27,8 +31,8 @@ body {
   font-size: 20px;
   color: #e4e7ec;
   
-  background-color: #1b1b1b;
-  border: 1px solid yellow;
+  background-color: #041c2c;
+  /* border: 1px solid yellow; */
   
 }
 
@@ -39,13 +43,13 @@ body {
 
 .main {
   flex: 1 0 auto;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .container {
   margin: 0 auto;
   max-width: 1440px;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .nav-list {
@@ -56,11 +60,11 @@ body {
 }
 
 .nav-item {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .section {
-  border: 1px dotted fuchsia;
+  /* border: 1px dotted fuchsia; */
 }
 
 .footer {
