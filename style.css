@@ -1,4 +1,157 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/fonts/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  font-family: 'Roboto';
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  
+  background-color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+
+  list-style: none;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+
+  text-decoration: none;
+}
+
+.nav-link,
+.nav-link:visited,
+.section-link,
+#profile p {
+  color: #363636;
+}
+
+.nav-item:hover {
+  background-color: #faf4ef;
+}
+
+.main {
+  flex: 1 0 auto;
+  background-color: #faf4ef;
+}
+
+main .container {
+  display: flex;
+}
+
+.left-side-container,
+.right-side-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side-container {
+  background-color: #ecd7cd;
+}
+
+.section-title {
+  padding: 10px 30px;
+}
+
+#profile {
+  padding: 50px 0 150px 30px;
+}
+
+.main-title {
+  font-size: 2.5em;
+}
+
+.section-content  {
+  padding: 0 30px 20px;
+  line-height: 2em;
+  color: #363636;
+}
+
+.section-list {
+  padding-left: 50px;
+}
+
+.section-link:hover {
+  text-decoration: none;
+}
+
+#contacts .section-list {
+  list-style: none;
+}
+
+.list-icon {
+  margin-right: 10px;
+}
+
+code {
+  display: block;
+  border-left: 5px solid #6b6b6b;
+  background-color: #ffffff;
+}
+
+header,
+.footer {
+  width: 100%;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+}
+
+.copyright {
+  font-size: 1.3em;
+}
+
+/* Draw vertical lines from headings */
+
+h2 {
+  display: flex;
+  align-items: center;
+}
+
+h2::after {
+  content: "";
+  height: 3px;
+  flex: 1 0 auto;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: #000000;
 }
