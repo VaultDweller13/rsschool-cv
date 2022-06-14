@@ -81,19 +81,29 @@ main .container {
 }
 
 .section-title {
-  padding: 10px 20px;
-  margin: 0 10px;
+  padding: 10px 30px;
 }
 
-#profile h1 {
-  padding-top: 20px;
+#profile {
+  padding: 50px 0 150px 30px;
+}
+
+#profile p {
+  color: #363636;
+}
+
+.main-title {
   font-size: 2.5em;
 }
 
 .section-content  {
-  padding: 0 50px 20px;
+  padding: 0 30px 20px;
   color: #363636;
   line-height: 2em;
+}
+
+.section-list {
+  padding-left: 50px;
 }
 
 .section-link:hover {
@@ -111,7 +121,7 @@ main .container {
 code {
   display: block;
   padding: 0 0 1em;
-  border-left: 5px solid gray;
+  border-left: 5px solid #6b6b6b;
 }
 
 header,
@@ -128,7 +138,7 @@ header,
 }
 
 .copyright {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 h2 {
