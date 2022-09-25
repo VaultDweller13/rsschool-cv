@@ -51,7 +51,7 @@ function check(str, bracketsConfig) {
 * [Travel](https://vaultdweller13.github.io/travel/)
 * [Momentum](https://vaultdweller13.github.io/Momentum/)
 * [Codejam Eldritch horror](https://vaultdweller13.github.io/codejam-eldritch/)
-* [Etch-a-sketch](https://github.com/VaultDweller13/etch-a-sketch)
+* [Etch-a-sketch](https://vaultdweller13.github.io/etch-a-sketch/)
 
 
 ## Education
